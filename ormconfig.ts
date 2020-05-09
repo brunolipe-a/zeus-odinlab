@@ -8,7 +8,7 @@ module.exports = {
   password: process.env.DB_PASS,
   database: process.env.DB_NAME,
   synchronize: true,
-  // dropSchema: false,
+  dropSchema: false,
   logging: true,
   ssl: true,
   entities: ['src/app/models/**/*.ts'],
